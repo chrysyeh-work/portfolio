@@ -42,3 +42,6 @@ Tracked events:
 ## Contact
 
 Email: chrys.yeh.work@gmail.com
+
+
+V5 updates: mobile-first headshot hero structure; replaced headshot and resume with user-provided files.
