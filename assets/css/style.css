@@ -42,3 +42,25 @@
 .hero-profile-card{background:linear-gradient(135deg,#ffffff 0%,#ECFDF5 48%,#FEF3C7 100%)}
 .hero-profile-card:before{background:#A7F3D0}
 @media(max-width:560px){.hero:after{width:240px;height:240px;right:-90px;top:100px}.quote{font-size:20px;padding:22px}.thinking-detail{margin-top:18px}}
+
+/* --- V4 narrative refinements --- */
+.hero .hero-grid{align-items:start}
+.hero-belief{
+  margin:10px 0 0;
+  color:var(--primary);
+  font-weight:800;
+  line-height:1.7;
+  padding:16px 18px;
+  border-left:4px solid var(--accent);
+  background:rgba(255,255,255,.55);
+  border-radius:16px;
+}
+@media(max-width:900px){
+  .hero > .container.hero-grid > .reveal:nth-child(2){
+    order:-1;
+  }
+  .hero-profile-card{
+    margin:0 auto 18px;
+    max-width:310px;
+  }
+}
