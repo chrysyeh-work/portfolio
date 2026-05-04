@@ -300,3 +300,22 @@ body:has(.thinking-hero) .lead{
     font-size:clamp(30px,7vw,42px);
   }
 }
+
+/* --- V7.2 Projects text width rhythm + resume alignment --- */
+.projects-hero .container,
+.projects-section-title{
+  width:min(1160px,calc(100% - 40px));
+  max-width:1160px;
+}
+.projects-hero .lead,
+.projects-section-title p{
+  max-width:1120px;
+  text-wrap:pretty;
+}
+.projects-section-title h2{
+  max-width:1120px;
+}
+@media(max-width:900px){
+  .projects-hero .container,
+  .projects-section-title{width:min(100%,calc(100% - 40px));}
+}
