@@ -405,3 +405,27 @@ body:has(.thinking-hero) .lead{
     max-width: 1240px;
   }
 }
+
+
+/* --- V8.2 hero philosophy title refinement --- */
+.hero-title-philosophy{
+  display:flex;
+  flex-direction:column;
+  gap:.04em;
+  font-size:clamp(44px,4.95vw,78px);
+  line-height:1.08;
+  letter-spacing:-.045em;
+  max-width:980px;
+  text-wrap:initial;
+}
+.hero-title-philosophy .indent{
+  padding-left:.55em;
+}
+@media(max-width:900px){
+  .hero-title-philosophy{
+    font-size:clamp(38px,9vw,58px);
+  }
+  .hero-title-philosophy .indent{
+    padding-left:0;
+  }
+}
