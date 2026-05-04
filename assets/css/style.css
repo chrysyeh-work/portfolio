@@ -103,3 +103,16 @@
   .page-hero-profile > .container.hero-grid > .hero-copy{order:1 !important;}
   .page-hero-profile > .container.hero-grid > .hero-visual{order:2 !important;}
 }
+
+
+/* V6 refinement */
+.personal-note p { font-size: 18px; color: var(--secondary); margin: 0; }
+.thinking-detail { margin-top: 28px; }
+.case-section h2 { scroll-margin-top: 96px; }
+.case-section p + p { margin-top: 14px; }
+.resume-impact strong { color: var(--primary); }
+@media (max-width: 760px) {
+  .hero .hero-grid, .page-hero-profile .hero-grid { gap: 28px; }
+  .hero-profile-card { max-width: 220px; margin: 0 auto; }
+  .hero-copy { text-align: left; }
+}
