@@ -429,3 +429,21 @@ body:has(.thinking-hero) .lead{
     padding-left:0;
   }
 }
+
+
+/* --- V9 headline: needs to value --- */
+.hero-title-value{
+  max-width:980px;
+  font-size:clamp(46px,5.05vw,80px);
+  line-height:1.08;
+  letter-spacing:-.05em;
+  text-wrap:balance;
+}
+.hero-title-value + .lead{
+  margin-top:4px;
+}
+@media(max-width:900px){
+  .hero-title-value{
+    font-size:clamp(38px,9vw,58px);
+  }
+}
