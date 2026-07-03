@@ -447,3 +447,30 @@ body:has(.thinking-hero) .lead{
     font-size:clamp(38px,9vw,58px);
   }
 }
+
+
+/* --- v11.1: Personal AI Prototype card spacing --- */
+.prototype-card .tag,
+.personal-prototype-card .tag,
+.ai-prototype-card .tag,
+.projects-prototype-card .tag,
+.card .tag {
+  margin-bottom: 14px;
+}
+
+.prototype-card h3,
+.personal-prototype-card h3,
+.ai-prototype-card h3,
+.projects-prototype-card h3 {
+  margin-top: 0;
+}
+
+@media (max-width: 760px) {
+  .prototype-card .tag,
+  .personal-prototype-card .tag,
+  .ai-prototype-card .tag,
+  .projects-prototype-card .tag,
+  .card .tag {
+    margin-bottom: 12px;
+  }
+}
