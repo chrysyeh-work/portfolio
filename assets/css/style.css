@@ -498,3 +498,28 @@ body:has(.thinking-hero) .lead{
     margin-bottom: 14px;
   }
 }
+
+
+/* --- v12: positioning and prototype section refinements --- */
+.hero-title-value{
+  max-width: 1080px;
+}
+.prototype-section .grid.two > .card{
+  box-shadow: 0 10px 28px rgba(17,24,39,.05);
+}
+.prototype-section .grid.two > .card .tag{
+  display: inline-flex;
+  align-items: center;
+  margin-bottom: 18px;
+}
+.prototype-section .grid.two > .card .tag + h3{
+  margin-top: 0;
+}
+.validation-map .card{
+  background: #fff;
+}
+@media(max-width:760px){
+  .prototype-section .grid.two > .card .tag{
+    margin-bottom:14px;
+  }
+}
