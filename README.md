@@ -45,3 +45,9 @@ Email: chrys.yeh.work@gmail.com
 
 
 V5 updates: mobile-first headshot hero structure; replaced headshot and resume with user-provided files.
+
+
+## 2026-08-17 Thinking V2
+- Reframed Product Thinking around moving from requests to product decisions.
+- Synced Home Method, About career narrative, and Projects portfolio throughline.
+- No CSS, route, navigation, GA, or project-order changes.
